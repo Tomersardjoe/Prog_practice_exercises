@@ -1,2 +1,3 @@
 s1 = 'Supercalifragilisticexpialidocious'
-'ice' in s1
+Boolean = 'ice' in s1
+print(Boolean)

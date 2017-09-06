@@ -1,2 +1,3 @@
 s1 = 'Supercalifragilisticexpialidocious'
-s1.__len__()
+length = s1.__len__()
+print(length)
