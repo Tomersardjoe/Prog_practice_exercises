@@ -2,6 +2,7 @@ studentencijfers = [[95, 92, 86], [66, 75, 54], [89, 72, 100], [34, 0, 0]]
 
 
 def gemiddelde_per_student(studentencijfers):
+
     i = 0
     antw = []
     for student in studentencijfers:
@@ -15,6 +16,7 @@ def gemiddelde_per_student(studentencijfers):
 
 
 def gemiddelde_van_alle_studenten(studentencijfers):
+
     gemiddelde = gemiddelde_per_student(studentencijfers)
 
     for cijfer in gemiddelde:

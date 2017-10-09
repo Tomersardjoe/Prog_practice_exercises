@@ -1,6 +1,12 @@
-def wijzig(letterlijst):
-    del letterlijst
-    letterlijst = ['d', 'e', 'f']
-    print(letterlijst)
+def wijzig(lijst):
 
-wijzig(['a', 'b', 'c'])
+    lijst.clear()
+    lijst.append('d')
+    lijst.append('e')
+    lijst.append('f')
+
+
+lijst = ['a', 'b', 'c']
+print(lijst)
+wijzig(lijst)
+print(lijst)

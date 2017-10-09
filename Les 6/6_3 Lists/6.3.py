@@ -4,6 +4,7 @@ listinvoer = invoer.split('-')
 listint = list(map(int, listinvoer))
 
 listint.sort()
+
 highestnumber = max(listint)
 lowestnumber = min(listint)
 length = len(listint)
@@ -12,5 +13,5 @@ average = int(som) / int(length)
 
 print('Gesorteerde list van ints: ' + str(listint))
 print('Grootste getal: %d en Kleinste getal: %d' % (highestnumber, lowestnumber))
-print('Aantal getallen: %d en Som van de getallen: %d' % (length,som))
+print('Aantal getallen: %d en Som van de getallen: %d' % (length, som))
 print('Gemiddelde: %f' % average)

@@ -1,4 +1,5 @@
 def ticker(filename):
+
     dictio = {}
     for line in open(filename):
         line = line.rstrip('\n')

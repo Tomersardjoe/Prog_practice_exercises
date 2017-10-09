@@ -1,2 +1,3 @@
-inventaris = ['papier','nietjes','pennen']
+inventaris = ['papier', 'nietjes', 'pennen']
+
 print(inventaris)

@@ -1,4 +1,5 @@
 def code(invoerstring):
+
     list= []
     for char in invoerstring:
         intwaarde = ord(char)

@@ -1,6 +1,11 @@
 def kwadraten_som(grondgetallen):
-    for positief in grondgetallen:
-        if positief >0:
-            print(positief**2)
 
-kwadraten_som([3,3,-5,3])
+    kwadratenlist = []
+    for positief in grondgetallen:
+        if positief > 0:
+            kwadratenlist.append((positief**2))
+
+    som = sum(kwadratenlist)
+    return som
+
+print(kwadraten_som([3, 7, -5, 6]))

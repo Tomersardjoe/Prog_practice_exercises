@@ -1,4 +1,5 @@
 def namen():
+
     entry = 'niet leeg'
     dictio = {}
     while entry != '':
@@ -10,9 +11,10 @@ def namen():
     return dictio
 
 dictionary = namen()
+
 for key, value in dictionary.items():
     if value > 1:
-        print('Er zijn %s studenten met de naam %s' % (value,key))
+        print('Er zijn %s studenten met de naam %s' % (value, key))
     else:
-        print('Er is %s student met de naam %s' % (value,key))
+        print('Er is %s student met de naam %s' % (value, key))
 

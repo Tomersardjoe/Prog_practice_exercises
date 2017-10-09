@@ -7,4 +7,5 @@ for word in list:
         newlist.append(word)
     else:
         continue
+
 print('De nieuw-gemaakte lijst met alle vier-letter strings is: ' + str(newlist))

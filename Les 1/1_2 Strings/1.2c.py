@@ -1,4 +1,4 @@
-s1 = 'Antidisestablishmentarianism'
-s2 = 'Honorificabilitudinitatibus'
-Boolean = s1.__len__() > s2.__len__()
-print(Boolean)
+string1 = 'Antidisestablishmentarianism'
+string2 = 'Honorificabilitudinitatibus'
+
+print(len(string1) > len(string2))

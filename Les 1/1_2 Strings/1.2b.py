@@ -1,3 +1,3 @@
-s1 = 'Supercalifragilisticexpialidocious'
-Boolean = 'ice' in s1
-print(Boolean)
+string = 'Supercalifragilisticexpialidocious'
+
+print('ice' in string)

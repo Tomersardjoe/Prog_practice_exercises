@@ -1,3 +1,3 @@
-inventaris = ['papier','nietjes','pennen']
-Boolean = inventaris.__len__() == 0 or inventaris.__len__() > 10
-print(Boolean)
+inventaris = ['papier', 'nietjes', 'pennen']
+
+print(len(inventaris) == 0 or len(inventaris) > 10)

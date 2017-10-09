@@ -2,4 +2,4 @@ dict = {'Piet': 4.5, 'Jan': 7.3, 'Klaas': 9.6, 'Boris': 7.6, 'Koen':  8.9, 'Hugo
 
 for key, value in dict.items():
     if value > 9.0:
-        print('%s heeft een %.1f!' % (key,value))
+        print('%s heeft een %.1f!' % (key, value))
